@@ -1,5 +1,5 @@
 {(db!:var.site={(get:site)})}
-{(db!:var.site={(op.range:{(db!:var.site)} 0 {(db.count:sites)})})}
+{(db!:var.site={(op.range:{(db!:var.site)} 1 {(db.count:sites)})})}
 
 {(db!:sites.{(db!:var.site)}.count+1)}
 

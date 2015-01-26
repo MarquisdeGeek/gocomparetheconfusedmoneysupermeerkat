@@ -54,7 +54,7 @@
 
 			html += '<tr><td>' + entry.name + '</td>';
 			html += '<td><img src="assets/red.jpg" height="30" width="' + barWidth+'">(' + entry.count + ')</td>';
-			html += '<td><a href="' + url + 'vote?site=' + idx + '">Vote</a></td></tr>';
+			html += '<td><a href="' + url + 'vote?site=' + (parseInt(idx,10)+1) + '">Vote</a></td></tr>';
 		}
 
 		html += "</table>";
