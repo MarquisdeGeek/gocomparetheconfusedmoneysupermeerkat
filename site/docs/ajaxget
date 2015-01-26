@@ -1,0 +1,10 @@
+J50Npi.success(
+{ "data": [
+{"name" : "{(db:sites.0.name)}", "count":{(db:sites.0.count)} },
+{"name" : "{(db:sites.1.name)}", "count":{(db:sites.1.count)}},
+{"name" : "{(db:sites.2.name)}", "count":{(db:sites.2.count)}},
+{"name" : "{(db:sites.3.name)}", "count":{(db:sites.3.count)}}
+]
+}
+);
+
