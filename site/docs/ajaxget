@@ -1,9 +1,9 @@
 J50Npi.success(
 { "data": [
-{"name" : "{(db:sites.1.name)}", "count":{(db:sites.1.count)} },
-{"name" : "{(db:sites.2.name)}", "count":{(db:sites.2.count)}},
-{"name" : "{(db:sites.3.name)}", "count":{(db:sites.3.count)}},
-{"name" : "{(db:sites.4.name)}", "count":{(db:sites.4.count)}}
+{"name" : "{(db:sites.1.name)}", "count":{(db:sites.1.count)}, "url":"{(db:sites.1.url)}"},
+{"name" : "{(db:sites.2.name)}", "count":{(db:sites.2.count)}, "url":"{(db:sites.2.url)}"},
+{"name" : "{(db:sites.3.name)}", "count":{(db:sites.3.count)}, "url":"{(db:sites.3.url)}"},
+{"name" : "{(db:sites.4.name)}", "count":{(db:sites.4.count)}, "url":"{(db:sites.4.url)}"}
 ]
 }
 );
